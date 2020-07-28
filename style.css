@@ -1,0 +1,74 @@
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+}
+.page{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* height : 100%; */
+    margin-top : 150px;
+}
+.text {
+    /* margin-top : 30px; */
+    margin-right : 150px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border : 2px solid black; */
+}
+h2, p, a {
+    display : flex;
+    /* margin-bottom : 30px; */
+    padding-left : 15px;
+}
+h2 {
+    color : #454f5d;
+    line-height: 1.35;
+    font-size: 52px;
+}
+p {
+    margin-top : 40px;
+    line-height: 1.6;
+    text-align: left;
+    font-size: 17px;
+    width : 100%;
+    margin-bottom : 0px;
+}
+a {
+    margin-top : 10px;
+    width : 100%;
+}
+.box {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.bank {
+    /* border : 1px solid orange; */
+    display : flex;
+    width : 360px;
+    height : 70px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09);
+    justify-content: space-between;
+    align-items: center;
+}
+span {
+    font-size: 15px;
+    color : #888;
+    display : flex;
+    align-items: center;
+    padding : 0 15px;
+    font-weight : 500;
+}
+.money {
+    color : #666666;
+    font-weight: bold;
+}
+img {
+    padding-right : 15px;
+}
